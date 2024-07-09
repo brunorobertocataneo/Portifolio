@@ -1,0 +1,32 @@
+.navbar{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #131313;
+	z-index: 3;
+}
+
+.navbar .logo{
+	width: 6rem;
+	height: 6rem;
+	background-color: none;
+}
+
+.navbar  a{
+	margin: 0rem 1rem;
+	color: white;
+}
+
+@media (max-width: 910px){
+	.navbar{
+		flex-direction: column;
+		height: auto;
+		padding-bottom: 1rem;
+	}
+	.navbar ul a{
+		flex-direction: column;
+		font-size: 15px;
+	}
+}
