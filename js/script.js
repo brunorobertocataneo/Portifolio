@@ -89,6 +89,13 @@ document.querySelectorAll('.gallery-item-2').forEach(item => {
 	});
 });
 
+document.querySelectorAll('.gallery-item-3').forEach(item => {
+	item.addEventListener('click', function() {
+		let url = 'https://brunorobertocataneo.github.io/programming_memory_game/'; 
+		window.open(url, '_blank');
+	});
+});
+
 // navbar
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
